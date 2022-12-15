@@ -46,6 +46,7 @@ function settingCallEvent(
 }
 
 jQuery(function () {
+  console.log(token)
   let myAudio = new Audio("../vintage-phone-ringing-121778.mp3");
   var localVideo = document.getElementById("localVideo");
   var remoteVideo = document.getElementById("remoteVideo");
